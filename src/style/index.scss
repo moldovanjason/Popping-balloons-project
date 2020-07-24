@@ -14,3 +14,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.classCell {
+    background:red;
+    height:210px;
+    width:1800px;
+    margin:10px;
+    border-radius:50%;
+}
+
+.classRow {
+    display:flex;
+}

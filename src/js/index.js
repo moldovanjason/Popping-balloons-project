@@ -1,10 +1,11 @@
-/* eslint-disable */
-
-import "../assets/img/rigo-baby.jpg";
-import "../assets/img/4geeks.ico";
-//import 'breathecode-dom'; //DOM override to make JS easier to use
-import "../style/index.scss";
-
 window.onload = function() {
-  console.log("Hello Rigo from the console!");
+  for (let i = 0; i < 5; i++) {
+    let row = document.createElement("div");
+    this.document.getElementById("div");
+    parent.appendChild(row);
+    for (let j = 0; j < 5; j++) {
+      let cell = document.createElement("div");
+      row.classList.appendChild(cell);
+    }
+  }
 };
